@@ -1,0 +1,8 @@
+I would characterize their audio aura by writing a query to find the average (AVG) of the energy, valence, and danceability of all their songs
+then limit the results to show only 100 records in ascending order.
+
+This may not be the best approach of caculating the user's audio aura as its getting a general average of the top 100 songs.
+A better approcah I would use is to first reduce the result set to about the top 20 songs, and getting the songs sorted first
+with the highest energy, then danceability then valence, in descending order.
+
+This will allow me to get a better idea of the user's music preference.
